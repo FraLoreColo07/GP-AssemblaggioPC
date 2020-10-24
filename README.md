@@ -1,3 +1,3 @@
 # Progetto-GS
 
-App per croce rossa 
+App per la Croce Rossa
