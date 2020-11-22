@@ -1,0 +1,16 @@
+
+.colmy{
+
+    height: auto;
+    width: 100px;
+}
+.centerObj{
+
+ text-align: center;
+ align-items: center;
+
+}
+.radiusMy{
+
+    border-radius: 50px;
+}
