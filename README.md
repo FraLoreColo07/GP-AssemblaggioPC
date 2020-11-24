@@ -12,7 +12,7 @@ Team e mansionario:
 Colombo Francesco – graphic designer e programmatore front-end
 Pirola Lorenzo – project leader, programmatore front-end e back-end
 Casetta Fabio – tester, programmatore back-end e database
-Cappellini Giovanni – gestore database? e documentatore
+Cappellini Giovanni – gestore database e documentatore
 
 
 
