@@ -1,6 +1,6 @@
 # Progetto-GS
 
-Sviluppo applicazione WPF.netFramework con gestione di database phpMyAdmin
+Sviluppo sito web con gestione di database phpMyAdmin
 Gestione -> Negozio componenti pc
 
 PROGETTO GS – NEGOZIO DI COMPONENTI PC
