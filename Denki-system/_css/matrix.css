@@ -1,0 +1,49 @@
+body {
+    background: black;
+}
+canvas{
+    display: block;
+}
+.grandezza{
+
+    width: auto;
+    height: auto;
+}
+.cc{
+
+    position: relative; 
+    
+    
+}
+
+.s{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+}
+ h3{
+    font-style: italic;
+    color: lawngreen;
+ }
+
+ p :special{
+    color: lawngreen;
+    font-size: 20px;
+ }
+
+ p{
+     color: lawngreen;
+ }
+
+.finS{
+
+    background-color: black;
+
+}
+
+.ter{
+
+    border-style: groove;
+    border-color: white;
+}
