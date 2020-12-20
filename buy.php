@@ -289,11 +289,13 @@
                                 <table id="ram-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
+											                      <th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Capacitá</th>
                                             <th>Tipologia RAM</th>
                                             <th>Frequenza</th>
                                             <th>CAS Latency</th>
+                                            <th>Consumo</th>
                                             <th>Prezzo</th>
                                         </tr>
                                     </thead>
@@ -341,6 +343,7 @@
                                     class="table tablesearch-table table-bordered table-striped tablemanager">
                                     <thead>
                                         <tr>
+											                      <th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Modello</th>
                                             <th>Produttore</th>
@@ -393,6 +396,7 @@
                                 <table id="ssd-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
+											                      <th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Tipo</th>
                                             <th>Slot</th>
@@ -443,6 +447,7 @@
                                 <table id="psu-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
+											                      <th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Tipo</th>
                                             <th>Efficienza</th>
@@ -488,6 +493,7 @@
                                 <table id="case-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
+											                      <th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Dimensioni</th>
                                             <th>Peso</th>
