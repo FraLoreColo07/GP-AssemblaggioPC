@@ -1,0 +1,35 @@
+
+.colmy{
+
+    height: auto;
+    width: 200px;
+}
+.centerObj{
+
+ text-align: center;
+ align-items: center;
+
+}
+.radiusMy{
+
+    border-radius: 50px;
+}
+.textTitle{
+
+    text-align: center;
+}
+.imageItem{
+
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+}
+
+.buttonMy{
+
+    border-collapse: collapse;
+    border: unset;
+}
+.textCenter{
+    text-align: center;
+}

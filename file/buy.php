@@ -219,62 +219,6 @@
                 </div><br>
                 <div class="row">
                     <div class="col-xl">
-
-                        <?php
-                        if(isset($_SESSION['dissipatore']) && !(isset($_SESSION['socket']))){
-                            echo '<div class="w-100">
-                                <button class="myFont btn btn-secondary btn-block" data-toggle="collapse"
-                                    data-target="#coolDatagrid">CPU Cooler-Visualizza Componenti</button><br>
-                            </div>';
-                            
-                            echo '<div class="collapse" id="coolDatagrid">
-                                <input type="text" class="form-control mb-3 tablesearch-input"
-                                    data-tablesearch-table="#cool-table" placeholder="Search">
-                                <div class="table-responsive">
-                                    <table class="table tablesearch-table table-bordered table-striped tablemanager">
-                                        <thead>
-                                            <tr>
-                                                <th>Seleziona</th>
-                                                <th>Nome</th>
-                                                <th>Socket</th>
-                                                <th>Tipo</th>
-                                                <th>RGB</th>
-                                                <th>Consumo</th>
-                                                <th>Prezzo</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>';
-                                            
-                                        $query = "SELECT nome, socket_supportate, tipo, controller_RGB, prezzo, consumo FROM dissipatore
-                                        WHERE socket_supportate LIKE '%".$_SESSION['socket']."%'";
-                                        
-                                        $check = $pdo->prepare($query);
-                                        $check->execute();
-
-                                        $rows = $check->fetchAll(PDO::FETCH_ASSOC);
-                                        
-                                        $index = 1;
-                                        foreach($rows as $row) {
-                                        echo "<tr><td><input type='radio' name='radioDis".$index."' value='".$index."'>" 
-                                            ."</td><td><input type='text' name='txtNome".$index."' value".$row['nome']
-                                            ."</td><td>".$row['socket_supportate']
-                                            ."</td><td>".$row['tipo']
-                                            ."</td><td>".$row['controller_RGB']
-                                            ."</td><td>".$row['prezzo']
-                                            ."</td></tr>";
-                                        }
-                                        echo '</tbody>
-                                    </table>
-                                </div>
-                            </div>';
-                        } else if(isset($_SESSION['dissipatore'])){
-                            echo '<div class="w-100">
-                                <button class="myFont btn btn-secondary btn-block">CPU Cooler-Visualizza Componenti</button><br>
-                            </div>';
-                        } else
-                            echo '<span>'.$_SESSION['dissipatore'].'</span>';
-                        ?>
-
                         <div class="w-100">
                             <button class="myFont btn btn-secondary btn-block" data-toggle="collapse"
                                 data-target="#coolDatagrid">CPU Cooler-Visualizza Componenti</button><br>
@@ -319,7 +263,6 @@
                                 </table>
                             </div>
                         </div>
-
                     </div>
                 </div><br>
                 <div class="row">
@@ -335,17 +278,13 @@
                                 <table id="ram-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
-
 											<th>Seleziona</th>
-
                                             <th>Nome</th>
                                             <th>Capacitá</th>
                                             <th>Tipologia RAM</th>
                                             <th>Frequenza</th>
                                             <th>CAS Latency</th>
-
 											<th>Consumo</th>
-
                                             <th>Prezzo</th>
                                         </tr>
                                     </thead>
@@ -393,9 +332,7 @@
                                     class="table tablesearch-table table-bordered table-striped tablemanager">
                                     <thead>
                                         <tr>
-
 											<th>Seleziona</th>
-
                                             <th>Nome</th>
                                             <th>Modello</th>
                                             <th>Produttore</th>
@@ -448,9 +385,7 @@
                                 <table id="ssd-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
-
 											<th>Seleziona</th>
-
                                             <th>Nome</th>
                                             <th>Tipo</th>
                                             <th>Slot</th>
@@ -501,9 +436,7 @@
                                 <table id="psu-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
-
 											<th>Seleziona</th>
-
                                             <th>Nome</th>
                                             <th>Tipo</th>
                                             <th>Efficienza</th>
@@ -549,7 +482,7 @@
                                 <table id="case-table" class="table tablesearch-table table-bordered table-striped">
                                     <thead>
                                         <tr>
-                                  					<th>Seleziona</th>
+											<th>Seleziona</th>
                                             <th>Nome</th>
                                             <th>Dimensioni</th>
                                             <th>Peso</th>
@@ -958,4 +891,4 @@
 <script src="_script/script2.js"></script>
 <script src="_script/auto-tables.js"></script>
 
-</html>
+</html>
